@@ -1,20 +1,13 @@
-export default function Fundamentos () {
+import Cabecalho from "../components/Cabecalho"
 
-    function Cabecalho () {
-        return (
-            <>
-                <div>
-                    <h1>Cabeçalho</h1>
-                    <p>Isto é um cabeçalho!</p>
-                </div>
-            </>
-        )
-    }
+export default function Fundamentos () {
 
     return (
         <>
-            <h1>Fundamentos</h1>
-            <p>Sucesso!</p>
+            <Cabecalho />
+                <h1>Fundamentos</h1>
+                <p>Sucesso!</p>
+            <Cabecalho />
         </>
     )
 }
