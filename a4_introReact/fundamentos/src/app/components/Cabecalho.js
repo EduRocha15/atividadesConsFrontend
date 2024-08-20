@@ -1,10 +1,12 @@
-export default function Cabecalho () {
+export default function Cabecalho (props) {
+
     return (
         <>
             <div>
-                <h1>Cabeçalho</h1>
+                <h1>{props.titulo}</h1>
                 <p>Isto é um cabeçalho!</p>
             </div>
         </>
     )
+
 }
