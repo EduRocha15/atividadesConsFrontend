@@ -1,17 +1,25 @@
--iniciar um projeto
+//iniciar um projeto
 npx create-next-app@latest
 -----------------------------------------------------------------------------------------------------------
 
--clonar repositório, configurar usuario e email
+//clonar repositório, configurar usuario e email
 -----------------------------------------------------------------------------------------------------------
 
--sequência
+//sequência
 n - n - n - s - s - n
 -----------------------------------------------------------------------------------------------------------
 
--abrir vs code dentro do projeto
+//abrir vs code dentro do projeto
 code fundamentos
 -----------------------------------------------------------------------------------------------------------
 
--executar o projeto
+//executar o projeto
 npm run dev
+-----------------------------------------------------------------------------------------------------------
+
+//Bootstrap
+npm install react-bootstrap bootstrap
+-----------------------------------------------------------------------------------------------------------
+
+//import css
+import 'bootstrap/dist/css/bootstrap.min.css';

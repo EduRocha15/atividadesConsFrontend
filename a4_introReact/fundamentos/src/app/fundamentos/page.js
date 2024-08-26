@@ -1,4 +1,3 @@
-
 import { Alert, Container } from "react-bootstrap";
 import Cabecalho from "../components/Cabecalho";
 import Link from "next/link";
