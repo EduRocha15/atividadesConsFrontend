@@ -23,3 +23,7 @@ npm install react-bootstrap bootstrap
 
 //import css
 import 'bootstrap/dist/css/bootstrap.min.css';
+-----------------------------------------------------------------------------------------------------------
+
+// Serve para fazer requisições rest
+npm i axios
