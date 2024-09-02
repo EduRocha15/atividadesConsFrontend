@@ -1,18 +1,14 @@
-<<<<<<< HEAD
 // Instalar o npm para o usuario logar
 npm i -g npm
 -----------------------------------------------------------------------------------------------------------
 
 // Iniciar um projeto
-=======
-npm i -g npm
-
-//iniciar um projeto
->>>>>>> 9bb5cd13a94d7b74238bcdb0da89a6d2b1ab5f04
 npx create-next-app@latest
 -----------------------------------------------------------------------------------------------------------
 
 // Clonar repositório, configurar usuario e email
+git config --global user.nome ""
+git config --global user.email ""
 -----------------------------------------------------------------------------------------------------------
 
 //sequência
